@@ -1,0 +1,51 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+ nav > a {
+    display: flex;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.banner-img {
+    border: 1px solid;
+    height: 500px;
+}
+
+.our-profile-content {
+    border: 1px solid;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+}
+
+.achievement-content {
+    border: 1px solid;
+    height: 500px;
+}
+
+.message-us-content {
+    border: 1px solid;
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+}
