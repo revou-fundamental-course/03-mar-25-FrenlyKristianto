@@ -24,9 +24,29 @@ nav {
     padding: 8px;
 }
 
+#name {
+    color: green;
+    font-weight: bold;
+    
+}
+
 .banner-img {
-    border: 1px solid;
-    height: 500px;
+    background-image: url(https://picsum.photos/370);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner-img.banner-1 {
+    background-image: url(https://picsum.photos/300);
+}
+
+.banner-img.banner-2 {
+    background-image: url(https://picsum.photos/350);
+}
+
+.banner-img.banner-3 {
+    background-image: url(https://picsum.photos/500);
 }
 
 .our-profile-content {
@@ -44,8 +64,16 @@ nav {
 .message-us-content {
     border: 1px solid;
     height: 500px;
+    display: flex;
+    justify-content: left;
 }
 
 footer {
     text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+    }
 }
