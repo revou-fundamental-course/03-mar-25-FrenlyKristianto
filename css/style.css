@@ -1,3 +1,7 @@
+body {
+    background: cornsilk;
+}
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -50,23 +54,87 @@ nav {
 }
 
 .our-profile-content {
-    border: 1px solid;
     height: 500px;
     text-align: center;
     align-content: center;
 }
 
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-info h1 {
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    height: auto;
+    width: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
 .achievement-content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
     border: 1px solid;
     height: 500px;
 }
 
 .message-us-content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+
     border: 1px solid;
-    height: 500px;
+    height: 200px;
+    width: auto;
     display: flex;
-    justify-content: left;
+    align-items: left;
+    align-content: center;
+    
 }
+
 
 footer {
     text-align: center;
